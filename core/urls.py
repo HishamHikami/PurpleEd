@@ -15,3 +15,7 @@ urlpatterns = [
     # Leave `Home.Urls` as last the last line
     path("", include("apps.home.urls"))
 ]
+
+admin.site.site_title = "Site Title"
+admin.site.site_header = "Site Header"
+admin.site.index_title = "Index Title"
